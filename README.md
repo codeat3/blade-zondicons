@@ -1,8 +1,17 @@
 # Blade Zondicons
 
-<a href="https://github.com/blade-ui-kit/blade-zondicons/actions"><img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons"><img src="https://poser.pugx.org/blade-ui-kit/blade-zondicons/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons"><img src="https://poser.pugx.org/blade-ui-kit/blade-zondicons/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://github.com/blade-ui-kit/blade-zondicons/actions?query=workflow%3ATests">
+    <img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/Tests/badge.svg" alt="Tests">
+</a>
+<a href="https://github.com/blade-ui-kit/blade-zondicons/actions?query=workflow%3A%22Code+Style%22">
+    <img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/Code%20Style/badge.svg" alt="Code Style">
+</a>
+<a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
+    <img src="https://poser.pugx.org/blade-ui-kit/blade-zondicons/v/stable.svg" alt="Latest Stable Version">
+</a>
+<a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
+    <img src="https://poser.pugx.org/blade-ui-kit/blade-zondicons/d/total.svg" alt="Total Downloads">
+</a>
 
 A package to easily make use of [Zondicons](http://www.zondicons.com) in your Laravel Blade views.
 

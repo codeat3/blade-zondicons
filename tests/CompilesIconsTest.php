@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use BladeUI\Zondicons\BladeZondiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
+use BladeUI\Zondicons\BladeZondiconsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class CompilesIconsTest extends TestCase
