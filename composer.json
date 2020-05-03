@@ -1,0 +1,54 @@
+{
+    "name": "blade-ui-kit/blade-zondicons",
+    "description": "A package to easily make use of Zondicons in your Laravel Blade views.",
+    "keywords": [
+        "Blade",
+        "Zondicons",
+        "Laravel"
+    ],
+    "homepage": "https://github.com/blade-ui-kit/blade-zondicons",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/blade-ui-kit/blade-zondicons/issues",
+        "source": "https://github.com/blade-ui-kit/blade-zondicons"
+    },
+    "authors": [
+        {
+            "name": "Dries Vints",
+            "email": "dries@vints.io",
+            "homepage": "https://driesvints.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "nothingworks/blade-svg": "dev-next-version",
+        "illuminate/support": "^7.6"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BladeUI\\Zondicons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BladeUI\\Zondicons\\BladeZondiconsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
