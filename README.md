@@ -15,7 +15,7 @@
 
 A package to easily make use of [Zondicons](http://www.zondicons.com) in your Laravel Blade views.
 
-For a full list of available icons see [the SVG directory](./resources/svg).
+For a full list of available icons see [the SVG directory](./resources/svg). Zondicons are originally developed by [Steve Schoger](https://twitter.com/steveschoger).
 
 ## Requirements
 
