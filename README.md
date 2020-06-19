@@ -52,12 +52,6 @@ And even use inline styles:
 <x-zondicon-cloud style="color: #555"/>
 ```
 
-The solid icons can be referenced like this:
-
-```blade
-<x-zondicon-cloud/>
-```
-
 ### Raw SVG Icons
 
 If you want to use the raw SVG icons as assets, you can publish them using:
