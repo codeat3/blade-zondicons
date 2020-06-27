@@ -11,10 +11,12 @@ final class BladeZondiconsServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        $this->app->make(Factory::class)->add('zondicons', [
-            'path' => __DIR__ . '/../resources/svg',
-            'prefix' => 'zondicon',
-        ]);
+        $this->callAfterResolving(Factory::class, function (Factory $factory) {
+            $factory->add('zondicons', [
+                'path' => __DIR__ . '/../resources/svg',
+                'prefix' => 'zondicon',
+            ]);
+        });
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
