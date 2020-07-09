@@ -3,7 +3,13 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.2...master)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...master)
+
+
+## [0.1.3 (2020-07-09)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.2...0.1.3)
+
+### Fixed
+- Fix `callAfterResolving` ([4c208e4](https://github.com/blade-ui-kit/blade-zondicons/commit/4c208e4bf36c29b9f8e7e375e5768f7f92727854))
 
 
 ## [0.1.2 (2020-06-27)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.1...0.1.2)
