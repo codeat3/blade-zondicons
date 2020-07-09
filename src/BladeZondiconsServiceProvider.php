@@ -9,7 +9,7 @@ use Illuminate\Support\ServiceProvider;
 
 final class BladeZondiconsServiceProvider extends ServiceProvider
 {
-    public function boot(): void
+    public function register(): void
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('zondicons', [
@@ -17,7 +17,10 @@ final class BladeZondiconsServiceProvider extends ServiceProvider
                 'prefix' => 'zondicon',
             ]);
         });
+    }
 
+    public function boot(): void
+    {
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__ . '/../resources/svg' => public_path('vendor/blade-zondicons'),
