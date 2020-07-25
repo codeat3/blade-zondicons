@@ -3,7 +3,7 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...master)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...main)
 
 
 ## [0.1.3 (2020-07-09)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.2...0.1.3)
