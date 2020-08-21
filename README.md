@@ -21,6 +21,8 @@ A package to easily make use of [Zondicons](http://www.zondicons.com) in your La
 
 For a full list of available icons see [the SVG directory](./resources/svg). Zondicons are originally developed by [Steve Schoger](https://twitter.com/steveschoger).
 
+*Join the Discord server: https://discord.gg/Vev5CyE*
+
 ## Requirements
 
 - PHP 7.2 or higher
