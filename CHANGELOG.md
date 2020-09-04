@@ -3,7 +3,13 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.4...main)
+
+
+## [0.1.4 (2020-09-04)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...0.1.4)
+
+### Added
+- Laravel 8 support ([#5](https://github.com/blade-ui-kit/blade-zondicons/pull/5))
 
 
 ## [0.1.3 (2020-07-09)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.2...0.1.3)
