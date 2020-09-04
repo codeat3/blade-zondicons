@@ -15,7 +15,7 @@ jobs:
       matrix:
         php: [7.2, 7.3, 7.4]
         laravel: [^7.0, ^8.0]
-        excluded:
+        exclude:
           - php: 7.2
             laravel: ^8.0
 
