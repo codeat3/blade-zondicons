@@ -11,10 +11,10 @@
     <img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/Code%20Style/badge.svg" alt="Code Style">
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
-    <img src="https://poser.pugx.org/blade-ui-kit/blade-zondicons/v/stable.svg" alt="Latest Stable Version">
+    <img src="https://img.shields.io/packagist/v/blade-ui-kit/blade-zondicons" alt="Latest Stable Version">
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
-    <img src="https://poser.pugx.org/blade-ui-kit/blade-zondicons/d/total.svg" alt="Total Downloads">
+    <img src="https://img.shields.io/packagist/dt/blade-ui-kit/blade-zondicons" alt="Total Downloads">
 </a>
 
 A package to easily make use of [Zondicons](http://www.zondicons.com) in your Laravel Blade views.
