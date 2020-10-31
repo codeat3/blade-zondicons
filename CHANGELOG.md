@@ -3,7 +3,19 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.4...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.2.0...main)
+
+
+## [0.2.0 (2020-10-31)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...0.2.0)
+
+### Added
+- PHP 8 Support ([01f2f5c](https://github.com/blade-ui-kit/blade-zondicons/commit/01f2f5c07687dd13c819d4fd8f9335dfdc3f17c5))
+
+### Changed
+- Bump Blade Icons dependency ([c00bda0](https://github.com/blade-ui-kit/blade-zondicons/commit/c00bda00a9ec4d9c1235819048d12091c85ca7d3))
+
+### Removed
+- Drop PHP 7.2 support ([a9dabb6](https://github.com/blade-ui-kit/blade-zondicons/commit/a9dabb6ab79646d253c348ad4237c94e40fe349b))
 
 
 ## [0.1.4 (2020-09-04)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...0.1.4)
