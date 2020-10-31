@@ -13,7 +13,7 @@ final class BladeZondiconsServiceProvider extends ServiceProvider
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('zondicons', [
-                'path' => __DIR__ . '/../resources/svg',
+                'path' => __DIR__.'/../resources/svg',
                 'prefix' => 'zondicon',
             ]);
         });
@@ -23,7 +23,7 @@ final class BladeZondiconsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../resources/svg' => public_path('vendor/blade-zondicons'),
+                __DIR__.'/../resources/svg' => public_path('vendor/blade-zondicons'),
             ], 'blade-zondicons');
         }
     }
