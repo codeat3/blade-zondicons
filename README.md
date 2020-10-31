@@ -7,8 +7,8 @@
 <a href="https://github.com/blade-ui-kit/blade-zondicons/actions?query=workflow%3ATests">
     <img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/Tests/badge.svg" alt="Tests">
 </a>
-<a href="https://github.com/blade-ui-kit/blade-zondicons/actions?query=workflow%3A%22Code+Style%22">
-    <img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/Code%20Style/badge.svg" alt="Code Style">
+<a href="https://github.styleci.io/repos/260906279">
+    <img src="https://github.styleci.io/repos/260906279/shield?style=flat" alt="Code Style">
 </a>
 <a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
     <img src="https://img.shields.io/packagist/v/blade-ui-kit/blade-zondicons" alt="Latest Stable Version">
