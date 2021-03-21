@@ -3,7 +3,15 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/0.2.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.0.0...main)
+
+
+## [1.0.0 (2021-03-21)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.2.0...1.0.0)
+
+### Changed
+- Drop Laravel 7 support ([e5aa48d](https://github.com/blade-ui-kit/blade-zondicons/commit/e5aa48dbf67e62805febb980ad86ea29298d6d6d))
+- Drop PHP 7.3 support ([8af22a8](https://github.com/blade-ui-kit/blade-zondicons/commit/8af22a84c2b13c60d1fd227c4c6b8ac8487b3ab9))
+- Require Blade Icons 1.0 ([2cb9116](https://github.com/blade-ui-kit/blade-zondicons/commit/2cb9116f25d65863ce033610c4f950c6d9cb40c6))
 
 
 ## [0.2.0 (2020-10-31)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.1.3...0.2.0)
