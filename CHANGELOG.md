@@ -3,7 +3,13 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.0.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.1.0...main)
+
+
+## [1.1.0 (2021-05-05)](https://github.com/blade-ui-kit/blade-zondicons/compare/1.0.0...1.1.0)
+
+### Added
+- Add config file ([#8](https://github.com/blade-ui-kit/blade-zondicons/pull/8))
 
 
 ## [1.0.0 (2021-03-21)](https://github.com/blade-ui-kit/blade-zondicons/compare/0.2.0...1.0.0)
