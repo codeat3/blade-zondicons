@@ -3,7 +3,12 @@
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.1.0...main)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.2.0...main)
+
+## [1.2.0 (2021-12-08)](https://github.com/blade-ui-kit/blade-zondicons/compare/1.1.0...1.2.0)
+
+### Updated
+- Updated to the latest icons ([030082a](https://github.com/codeat3/blade-zondicons/commit/030082a56636f9bec958730704910a91902745e3))
 
 
 ## [1.1.0 (2021-05-05)](https://github.com/blade-ui-kit/blade-zondicons/compare/1.0.0...1.1.0)

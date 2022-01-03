@@ -1,17 +1,21 @@
 {
-    "name": "blade-ui-kit/blade-zondicons",
+    "name": "codeat3/blade-zondicons",
     "description": "A package to easily make use of Zondicons in your Laravel Blade views.",
     "keywords": ["Blade", "Zondicons", "Laravel"],
-    "homepage": "https://github.com/blade-ui-kit/blade-zondicons",
+    "homepage": "https://github.com/codeat3/blade-zondicons",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/blade-ui-kit/blade-zondicons/issues",
-        "source": "https://github.com/blade-ui-kit/blade-zondicons"
+        "issues": "https://github.com/codeat3/blade-zondicons/issues",
+        "source": "https://github.com/codeat3/blade-zondicons"
     },
     "authors": [
         {
             "name": "Dries Vints",
             "homepage": "https://driesvints.com"
+        },
+        {
+            "name": "Swapnil Sarwe",
+            "homepage": "https://swapnilsarwe.com"
         }
     ],
     "require": {
@@ -20,6 +24,8 @@
         "illuminate/support": "^8.0"
     },
     "require-dev": {
+        "codeat3/blade-icon-generation-helpers": "dev-poc",
+        "codeat3/phpcs-styles": "dev-main",
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.0"
     },
@@ -44,5 +50,9 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "format": "vendor/bin/php-cs-fixer fix"
+    }
 }
