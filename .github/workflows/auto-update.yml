@@ -29,11 +29,8 @@ jobs:
           env-file: .env
 
       - name: Checkout dependent repo
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ env.REPOSITORY }}
-          ref: ${{ env.BRANCH }}
-          path: ./dist
+        run: |
+          ./bin/compile.sh
 
       - id: latest-commit
         name: Get the latest commit
@@ -62,7 +59,7 @@ jobs:
 
       - name: Compile icons to resources directory
         if: env.CURRENT_COMMIT != env.LATEST_COMMIT
-        run: ./bin/compile.sh
+        run: ./vendor/bin/blade-icons-generate
 
       - name: Update commit hash in ".commit"
         if: env.CURRENT_COMMIT != env.LATEST_COMMIT

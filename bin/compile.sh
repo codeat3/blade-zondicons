@@ -14,9 +14,6 @@ mv zondicons/* ./
 rm -rf zondicons
 rm zondicons.zip
 
-echo "Compiling Zondicons..."
-
-cd ..
-./vendor/bin/blade-icons-generate
+echo "Extracting Zondicons..."
 
 echo "All done!"
