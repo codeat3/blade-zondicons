@@ -9,8 +9,6 @@ $svgNormalization = static function (string $tempFilepath, array $iconSet) {
     $iconProcessor
         ->optimize()
         ->postOptimizationAsString(function ($svgLine) {
-
-
             return $svgLine;
         })
         ->save();
