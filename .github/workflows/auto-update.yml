@@ -25,7 +25,7 @@ jobs:
 
       - name: Checkout dependent repo
         run: |
-          ./bin/compile.sh
+          mkdir dist && ./bin/compile.sh
 
       - id: latest-commit
         name: Get the latest commit
