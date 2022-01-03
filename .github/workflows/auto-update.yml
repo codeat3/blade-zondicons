@@ -23,11 +23,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Read DotEnv File
-        uses: c-py/action-dotenv-to-setenv@v2
-        with:
-          env-file: .env
-
       - name: Checkout dependent repo
         run: |
           ./bin/compile.sh
