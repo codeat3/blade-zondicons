@@ -1,7 +1,6 @@
 name: Auto Update Icons
 
 on:
-  push:
   schedule:
     - cron: '0 12 * * 1'
 
