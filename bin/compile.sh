@@ -6,21 +6,14 @@ DIRECTORY=$(cd `dirname $0` && pwd)
 ICONS=$DIRECTORY/../dist
 RESOURCES=$DIRECTORY/../resources/svg
 
-echo "Compiling Zondicons..."
+cd $ICONS
+curl -o zondicons.zip http://www.zondicons.com/zondicons.zip
+unzip zondicons.zip
+rm -rf __MACOSX
+mv zondicons/* ./
+rm -rf zondicons
+rm zondicons.zip
 
-for FILE in $ICONS/*; do
-  FILENAME=${FILE##*/}
-
-  if [ "$FILENAME" == ".gitignore" ]
-  then
-    break
-  fi
-
-  # Compile icons...
-  cp $FILE $RESOURCES/${FILENAME}
-
-  CLASS='<svg fill="currentColor"'
-  sed -i '' "s/<svg/$CLASS/" $RESOURCES/${FILENAME}
-done
+echo "Extracting Zondicons..."
 
 echo "All done!"
