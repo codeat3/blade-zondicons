@@ -1,23 +1,21 @@
 <p align="center">
-    <img src="https://github.com/blade-ui-kit/art/blob/main/socialcard-blade-zondicons.png" width="1280" title="Social Card Blade UI Kit">
+    <img src="./socialcard-blade-zondicons.png" width="1280" title="Social Card Blade Zondicons">
 </p>
 
 # Blade Zondicons
 
-<a href="https://github.com/blade-ui-kit/blade-zondicons/actions?query=workflow%3ATests">
-    <img src="https://github.com/blade-ui-kit/blade-zondicons/workflows/Tests/badge.svg" alt="Tests">
+<a href="https://github.com/codeat3/blade-zondicons/actions?query=workflow%3ATests">
+    <img src="https://github.com/codeat3/blade-zondicons/workflows/Tests/badge.svg" alt="Tests">
 </a>
-<a href="https://github.styleci.io/repos/260906279">
-    <img src="https://github.styleci.io/repos/260906279/shield?style=flat" alt="Code Style">
+<a href="https://packagist.org/packages/codeat3/blade-zondicons">
+    <img src="https://img.shields.io/packagist/v/codeat3/blade-zondicons" alt="Latest Stable Version">
 </a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
-    <img src="https://img.shields.io/packagist/v/blade-ui-kit/blade-zondicons" alt="Latest Stable Version">
-</a>
-<a href="https://packagist.org/packages/blade-ui-kit/blade-zondicons">
-    <img src="https://img.shields.io/packagist/dt/blade-ui-kit/blade-zondicons" alt="Total Downloads">
+<a href="https://packagist.org/packages/codeat3/blade-zondicons">
+    <img src="https://img.shields.io/packagist/dt/codeat3/blade-zondicons" alt="Total Downloads">
 </a>
 
-A package to easily make use of [Zondicons](http://www.zondicons.com) in your Laravel Blade views.
+This repository was previously maintained under [blade-ui-kit](https://blade-ui-kit.com/) by [Dries Vints](https://github.com/driesvints). We would be maintaining it from now on, under the namespace [codeat3](https://github.com/codeat3).
+A package is to easily make use of [Zondicons](http://www.zondicons.com) in your Laravel Blade views.
 
 For a full list of available icons see [the SVG directory](./resources/svg). Zondicons are originally developed by [Steve Schoger](https://twitter.com/steveschoger).
 
@@ -29,7 +27,7 @@ For a full list of available icons see [the SVG directory](./resources/svg). Zon
 ## Installation
 
 ```bash
-composer require blade-ui-kit/blade-zondicons
+composer require codeat3/blade-zondicons
 ```
 
 ## Updating
@@ -38,7 +36,7 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 
 ## Blade Icons
 
-Blade Zondicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/blade-ui-kit/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/blade-ui-kit/blade-icons#caching) with this library.
+Blade Zondicons uses Blade Icons under the hood. Please refer to [the Blade Icons readme](https://github.com/codeat3/blade-icons) for additional functionality. We also recommend to [enable icon caching](https://github.com/codeat3/blade-icons#caching) with this library.
 
 ## Configuration
 
