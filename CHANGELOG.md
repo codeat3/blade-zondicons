@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.2.0...HEAD)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.3.0...HEAD)
+
+## [1.3.0](https://github.com/blade-ui-kit/blade-zondicons/compare/1.2.0...1.3.0) - 2022-02-07
+
+## What's Changed
+
+- Added support for Laravel 9 by @swapnilsarwe in https://github.com/codeat3/blade-zondicons/pull/19
+
+**Full Changelog**: https://github.com/codeat3/blade-zondicons/compare/1.2.0...1.3.0
 
 ## [1.2.0](https://github.com/blade-ui-kit/blade-zondicons/compare/1.2.0...1.2.0) - 2022-01-04
 
