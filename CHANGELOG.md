@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.3.0...HEAD)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.4.0...HEAD)
+
+## [1.4.0](https://github.com/blade-ui-kit/blade-zondicons/compare/1.3.0...1.4.0) - 2023-03-01
+
+### What's Changed
+
+- added support for laravel 10
+
+**Full Changelog**: https://github.com/codeat3/blade-zondicons/compare/1.3.0...1.4.0
 
 ## [1.3.0](https://github.com/blade-ui-kit/blade-zondicons/compare/1.2.0...1.3.0) - 2022-02-07
 
