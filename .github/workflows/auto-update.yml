@@ -22,23 +22,15 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
-      - name: Read DotEnv File
-        uses: c-py/action-dotenv-to-setenv@v2
-        with:
-          env-file: .env
-
       - name: Checkout dependent repo
-        uses: actions/checkout@v3
-        with:
-          repository: ${{ env.REPOSITORY }}
-          ref: ${{ env.BRANCH }}
-          path: ./dist
+        run: |
+          mkdir dist && ./bin/compile.sh
 
       - id: latest-commit
         name: Get the latest commit
         run: |
           echo 'LATEST_COMMIT<<EOF' >> $GITHUB_ENV
-          cd ./dist && git log  --format="%H" -n 1 >> $GITHUB_ENV
+          cd ./dist && date +"%Y-%m-%d-%H-%M" >> $GITHUB_ENV
           echo 'EOF' >> $GITHUB_ENV
 
       - id: current-commit
@@ -79,4 +71,3 @@ jobs:
             This updates from [${{ env.CURRENT_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.CURRENT_COMMIT }}) to [${{ env.LATEST_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.LATEST_COMMIT }}).
             Check out the differences: [`${{ env.CURRENT_COMMIT }}` ... `${{ env.LATEST_COMMIT }}`](https://github.com/${{ env.REPOSITORY }}/compare/${{ env.CURRENT_COMMIT }}...${{ env.LATEST_COMMIT }})
           branch: feature/update-${{ env.LATEST_COMMIT }}
-
