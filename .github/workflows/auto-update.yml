@@ -12,7 +12,7 @@ jobs:
       fail-fast: true
       matrix:
         php: [8.2]
-        laravel: [^8.2]
+        laravel: ['12.0', ^8.2]
 
     name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
 
@@ -52,21 +52,21 @@ jobs:
         run: composer update --no-interaction --no-progress --dev
 
       - name: Compile icons to resources directory
-        if: env.CURRENT_COMMIT != env.LATEST_COMMIT
+        if: 'env.CURRENT_COMMIT != env.LATEST_COMMIT'
         run: ./vendor/bin/blade-icons-generate
 
       - name: Update commit hash in ".commit"
-        if: env.CURRENT_COMMIT != env.LATEST_COMMIT
+        if: 'env.CURRENT_COMMIT != env.LATEST_COMMIT'
         run: echo ${{ env.LATEST_COMMIT }}>./.commit
 
       - name: Create PR for latest version
-        if: env.CURRENT_COMMIT != env.LATEST_COMMIT
+        if: 'env.CURRENT_COMMIT != env.LATEST_COMMIT'
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "auto-update: update icons with the latest commit ${{ env.LATEST_COMMIT }}"
+          commit-message: auto-update: update icons with the latest commit ${{ env.LATEST_COMMIT }}
           committer: GitHub Action <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          title: "chore: update icons with the latest commit v${{ env.LATEST_COMMIT }}"
+          title: chore: update icons with the latest commit v${{ env.LATEST_COMMIT }}
           body: |
             This updates from [${{ env.CURRENT_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.CURRENT_COMMIT }}) to [${{ env.LATEST_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.LATEST_COMMIT }}).
             Check out the differences: [`${{ env.CURRENT_COMMIT }}` ... `${{ env.LATEST_COMMIT }}`](https://github.com/${{ env.REPOSITORY }}/compare/${{ env.CURRENT_COMMIT }}...${{ env.LATEST_COMMIT }})

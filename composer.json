@@ -1,7 +1,11 @@
 {
     "name": "codeat3/blade-zondicons",
     "description": "A package to easily make use of Zondicons in your Laravel Blade views.",
-    "keywords": ["Blade", "Zondicons", "Laravel"],
+    "keywords": [
+        "Blade",
+        "Zondicons",
+        "Laravel"
+    ],
     "homepage": "https://github.com/codeat3/blade-zondicons",
     "license": "MIT",
     "support": {
@@ -21,12 +25,12 @@
     "require": {
         "php": "^7.4|^8.0",
         "blade-ui-kit/blade-icons": "^1.1",
-        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0"
     },
     "require-dev": {
         "codeat3/blade-icon-generation-helpers": "^0.8",
         "codeat3/phpcs-styles": "^1.0",
-        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0",
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0",
         "phpunit/phpunit": "^9.0|^10.5|^11.0"
     },
     "autoload": {
