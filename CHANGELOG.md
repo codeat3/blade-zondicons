@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.6.0...HEAD)
+## [Unreleased](https://github.com/blade-ui-kit/blade-zondicons/compare/1.7.0...HEAD)
+
+## [1.7.0](https://github.com/blade-ui-kit/blade-zondicons/compare/1.6.0...1.7.0) - 2026-05-24
+
+### What's Changed
+
+* laravel 13 compatibilty by @swapnilsarwe in https://github.com/codeat3/blade-zondicons/pull/239
+
+**Full Changelog**: https://github.com/codeat3/blade-zondicons/compare/1.6.0...1.7.0
 
 ## [1.6.0](https://github.com/blade-ui-kit/blade-zondicons/compare/1.5.0...1.6.0) - 2025-02-26
 
